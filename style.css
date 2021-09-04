@@ -44,6 +44,13 @@ h3 a {
     height: 30px;
     line-height: 30px;
     text-decoration: none;
+    position: relative;
+    right: 0;
+    transition: right ease 0.9s;
+}
+h3 a:hover{
+    color: #fff;
+    right: -20px;
 }
 
 .header{
